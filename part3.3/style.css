@@ -1,0 +1,16 @@
+body{
+	position: relative;
+	width: 2000px;
+	height: 1000px;
+	margin: auto;
+}
+
+#canvas1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -45%);
+	width: 2000px;
+	height: 1000px;
+	margin: auto;
+}

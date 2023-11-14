@@ -1,0 +1,26 @@
+body{
+		position: relative;
+		width: 650px;
+		height: 650px;
+		margin: auto;
+}
+/* use position:relative with height/width on parent before using position:absolute */
+#canvas1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -30%);
+	width: 600px;
+	height: 600px;
+	margin: auto;
+}
+.controls{
+	position: absolute;
+	z-index: 10;
+	top: 100px;
+	left: 50%;
+	transform: translate(-50%);
+}
+.controls, select, option{
+	font-size: 25px;
+}
